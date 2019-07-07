@@ -1,0 +1,44 @@
+{
+  "name": "",
+  "repository": "",
+  "license": "",
+  "description": "",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "precommit": "lint-staged",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recompose": "latest",
+    "styled-components": "latest"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "flow focus-check",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "eslint": "latest",
+    "enzyme-adapter-react-16": "latest",
+    "babel-plugin-transform-flow-strip-types": "latest",
+    "enzyme": "latest",
+    "flow-bin": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "lint-staged": "latest",
+    "react-addons-test-utils": "latest",
+    "react-test-renderer": "latest"
+  }
+}
